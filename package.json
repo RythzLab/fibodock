@@ -1,0 +1,20 @@
+{
+  "name": "fibodock",
+  "version": "1.0.0",
+  "description": "fibonacci series inside docker image",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "dockerize"
+  ],
+  "author": "https://rythz.com",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "prompt": "^1.1.0"
+  }
+}
